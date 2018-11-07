@@ -7,14 +7,14 @@ body {
 }
 
 h1 {
-  color:#db3951;
+  color:#E06D06;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 h2 {
-  color:#db3951;
+  color:#E06D06;
   font-family: 'Hind', sans-serif;
   font-weight: 300;
   text-align: center;
@@ -22,14 +22,14 @@ h2 {
 }
 
 h3 {
-  color:#db3951;
+  color:#E06D06;
   font-family: 'Hind', sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
 
 a {
-  color: #db3951;
+  color: #E06D06;
   text-decoration: none;
 }
 
@@ -41,55 +41,26 @@ a:hover {
   text-align: center;
 }
 
-/*.container {
-  width: 900px;
+.container {
+  width: 100%;
   margin: 0 auto;
-}*/
+  margin-left: 75px;
+}
 
 .card {
   background-color: white;
-  width: 700px;
+  width: 60%;
+  max-width: 700px;
   margin: 20px auto;
   padding: 30px;
-  box-shadow: 3px 3px 2px #db3951;
+  box-shadow: 3px 3px 2px #E06D06;
   border-radius: 5px;
-}
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-    margin: 0 auto;
-  }
-
-  .card {
-    width: 500px;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-    margin: 0 auto;
-  }
-
-  .card {
-    width: 400px;
-  }
-}
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-    margin: 0 auto;
-  }
-
-  .card {
-    width: 250px;
-  }
 }
 
 #img-circle {
   width: 150px;
   border-radius: 50%;
-  border: 2px solid #db3951;
+  border: 2px solid #E06D06;
 }
 
 .img-shadowed {
@@ -108,4 +79,29 @@ a:hover {
 
 td {
   padding: 10px 10px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0D0630;
+}
+
+.list {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-left: 14px;
+}
+
+.fas{
+  font-size: 40px;
+  line-height: 100px;
+}
+
+.fab{
+  font-size: 30px;
 }

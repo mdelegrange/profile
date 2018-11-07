@@ -9,62 +9,69 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/md_profile_pic.jpeg" alt="Profile picture" id="img-circle">
-        <h1>Matthieu Delegrange</h1>
-        <h2>Fullstack developper</h2>
-        <p>Le Wagon <strong>Nantes</strong> (Batch #197).</p>
-        <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production a clone of AirBnB and a Rails prototype.</p>
-      </div>
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.linkedin.com/in/matthieu-delegrange-b7b10070/" target="_blank"><i class="fab fa-linkedin-in"></i><br>LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://github.com/mdelegrange" target="_blank"><i class="fab fa-github"></i><br>Github</a>
-          </li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2 text-align="center">My favorite movies</h2>
-        <table>
-          <tr>
-            <td>
-              <img src="images/back_to_the_future.jpg" alt="Back to the Future Poster" class="img-shadowed">
-            </td>
-            <td>
-              <h3><a href="https://www.imdb.com/title/tt0088763/" target="_blank">Back to the Future</a></h3>
-              <p>Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/the_prestige.jpg" alt="The Prestige Poster" class="img-shadowed">
-            </td>
-            <td>
-              <h3><a href="https://www.imdb.com/title/tt0482571/?ref_=nv_sr_1" target="_blank">The Prestige</a></h3>
-              <p>After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/guardians_of_the_galaxy.jpg" alt="Guardians of the Galaxy Poster" class="img-shadowed">
-            </td>
-            <td>
-              <h3><a href="https://www.imdb.com/title/tt2015381/?ref_=nv_sr_1" target="_blank">Guardians of the Galaxy</a></h3>
-              <p>A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div class="card text-center">
-        <h2>About this page</h2>
-        <p>This page has been coded during the <a href="https://www.lewagon.com/fr"> FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+    <div>
+      <div class="container">
+        <div id="sidebar">
+          <ul class="list">
+            <li><a href="#summary"><i class="fas fa-user"></i></a></li>
+            <li><a href="#favorite-movies"><i class="fas fa-film"></i></a></li>
+            <li><a href="#help"><i class="fas fa-question-circle"></i></a></li>
+          </ul>
+        </div>
+        <div class="card text-center" id="summary">
+          <img src="images/md_profile_pic.jpeg" alt="Profile picture" id="img-circle">
+          <h1>Matthieu Delegrange</h1>
+          <h2>Fullstack developper</h2>
+          <p>Le Wagon <strong>Nantes</strong> (Batch #197).</p>
+          <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production a clone of AirBnB and a Rails prototype.</p>
+        </div>
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.linkedin.com/in/matthieu-delegrange-b7b10070/" target="_blank"><i class="fab fa-linkedin-in"></i><br>LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/mdelegrange" target="_blank"><i class="fab fa-github"></i><br>Github</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card" id="favorite-movies">
+          <h2 text-align="center">My favorite movies</h2>
+          <table>
+            <tr>
+              <td>
+                <img src="images/back_to_the_future.jpg" alt="Back to the Future Poster" class="img-shadowed">
+              </td>
+              <td>
+                <h3><a href="https://www.imdb.com/title/tt0088763/" target="_blank">Back to the Future</a></h3>
+                <p>Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/the_prestige.jpg" alt="The Prestige Poster" class="img-shadowed">
+              </td>
+              <td>
+                <h3><a href="https://www.imdb.com/title/tt0482571/?ref_=nv_sr_1" target="_blank">The Prestige</a></h3>
+                <p>After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/guardians_of_the_galaxy.jpg" alt="Guardians of the Galaxy Poster" class="img-shadowed">
+              </td>
+              <td>
+                <h3><a href="https://www.imdb.com/title/tt2015381/?ref_=nv_sr_1" target="_blank">Guardians of the Galaxy</a></h3>
+                <p>A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="card text-center" id="help">
+          <h2>About this page</h2>
+          <p>This page has been coded during the <a href="https://www.lewagon.com/fr"> FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+        </div>
       </div>
     </div>
   </body>
 </html>
-
-
